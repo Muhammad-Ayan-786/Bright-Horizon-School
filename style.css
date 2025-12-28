@@ -1,0 +1,67 @@
+:root {
+    /* ===============================
+       PRIMARY BRAND COLORS
+       =============================== */
+    --primary: #0466c8;
+    --primary-hover: #0353a4;
+    --primary-dark: #023e7d;
+
+    --secondary: #33415c;
+    --secondary-light: #5c677d;
+
+    /* ===============================
+       BACKGROUND COLORS
+       =============================== */
+    --bg-main: #f8f9fb;              /* Page background */
+    --bg-section: #ffffff;           /* Cards, sections */
+    --bg-soft: #e9edf5;              /* Subtle sections */
+    --bg-dark: #001845;              /* Footer / header */
+    --bg-darker: #001233;
+
+    /* ===============================
+       TEXT COLORS
+       =============================== */
+    --text-primary: #001233;         /* Main text */
+    --text-secondary: #33415c;       /* Paragraphs */
+    --text-muted: #7d8597;           /* Hints / labels */
+
+    --text-on-primary: #ffffff;
+    --text-on-dark: #eaefff;
+
+    --text-link: #0466c8;
+    --text-link-hover: #0353a4;
+
+    /* ===============================
+       BORDER COLORS
+       =============================== */
+    --border-light: #d6dbe6;
+    --border-medium: #b8c0d4;
+    --border-dark: #5c677d;
+
+    /* ===============================
+       STATUS COLORS (School UI needs this)
+       =============================== */
+    --success: #2ea44f;
+    --warning: #f4a261;
+    --error: #e63946;
+    --info: #0466c8;
+
+    /* ===============================
+       SHADOWS (Very Important)
+       =============================== */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.18);
+    --shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+
+    /* ===============================
+       FOCUS & HOVER STATES
+       =============================== */
+    --focus-ring: 0 0 0 3px rgba(4, 102, 200, 0.35);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
