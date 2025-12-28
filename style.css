@@ -1,3 +1,14 @@
+/* =========================
+   IMPORTING FONT
+========================= */
+
+/* Name: "Roboto Slab" | CSS : font-family: "Roboto Slab", "Segoe UI", Roboto, system-ui, sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* Name: "Poppins" | CSS : font-family: "Poppins", "Segoe UI", Roboto, system-ui, sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
     /* ===============================
        PRIMARY BRAND COLORS
@@ -64,4 +75,127 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    background: var(--bg-main);
+    color: var(--text-primary);
+    font-family: "Poppins", "Roboto Slab", system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header {
+    background: var(--bg-soft);
+    width: 100%;
+    height: 15%;
+    padding: 0 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .logo {
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+}
+
+header .navbar {
+    width: 50%;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul .nav-link {
+    width: 20%;
+    text-align: center;
+    background: var(--bg-section);
+    padding: 0.8rem 1rem;
+    border-radius: 30px;
+    border: 1px solid var(--border-light);
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all .2s ease;
+}
+
+.nav-link:hover {
+    background: var(--primary-hover);
+    color: var(--text-on-primary);
+    box-shadow: var(--shadow-md);
+}
+
+header .register-cont {
+    max-height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.register-cont .register-btn {
+    width: 100%;
+    text-align: center;
+    background: var(--bg-section);
+    padding: 0.5rem 0.8rem;
+    border-radius: 30px;
+    border: var(--border-dark);
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1px solid var(--border-light);
+    transition: all .2s ease;
+}
+
+.register-btn:hover {
+    background: var(--primary-hover);
+    color: var(--text-on-primary);
+    box-shadow: var(--shadow-md);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Classes */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
 }
