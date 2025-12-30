@@ -273,12 +273,13 @@ main .homePage {
 
 .location-cont .location {
     width: 100%;
-    height: 55%;
+    height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background: skyblue;
+    background: skyblue;border-bottom: 2px solid var(--bg-soft);
+    box-shadow: 1px 2px 20px var(--bg-soft);
 }
 
 .location img {
@@ -327,16 +328,71 @@ main .homePage {
 
 .location-cont .careers {
     width: 100%;
-    height: 45%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid var(--bg-soft);
+    box-shadow: 1px 2px 20px var(--bg-soft);
+}
+
+.careers .careerTitle {
+    width: 100%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    background: khaki;
+    background: yellow;
 }
 
+.careerTitle h1 {
+    background: linear-gradient(#2e5ec9, #a0bdf0);
+    background-clip: text;
+    color: transparent;
+    font-size: 3.5rem;
+}
 
+.careers .careerBoxes {
+    width: 25%;
+    height: 80%;
+    border-radius: 18px;
+    overflow: hidden;
+    background: var(--bg-soft);
+    color: var(--primary);
+    box-shadow: var(--sb-thumb-shadow);
+}
 
+.careers .all-boxes {
+    width: 100%;
+    height: 85%;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;   
+}
+
+.all-boxes .careerBoxes {
+    width: 25%;
+    height: 85%;
+    border-radius: 18px;
+    overflow: hidden;
+    background: var(--bg-soft);
+    color: var(--primary);
+    box-shadow: var(--sb-thumb-shadow);
+}
+
+.careerBoxes h4 {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.careerBoxes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* ================================
 Footer
