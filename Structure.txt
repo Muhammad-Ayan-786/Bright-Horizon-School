@@ -1,0 +1,14 @@
+1. Modules
+2. Event Loop
+3. Types of API
+4. local Storage
+
+Projects
+
+School management system
+1. Login / Sign-up (API provided by Shah)
+2. Assignment (For Students "API")
+3. Assignment Creation (For Teachers)
+4. Home , Contact-us , Roles , Login / Signup
+5. If student login , he'll go to lists of assignment.
+6. If teacher login , he'll go to his assignment and create assignment.
